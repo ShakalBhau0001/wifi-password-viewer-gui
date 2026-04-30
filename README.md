@@ -10,6 +10,7 @@ This tool scans all saved Wi-Fi networks on your Windows system and displays the
 ```bash
 wifi-password-viewer-gui/
 │
+├── assets/             # Screenshots
 ├── main.py             # Main GUI application
 ├── LICENSE
 └── README.md           # Project documentation
