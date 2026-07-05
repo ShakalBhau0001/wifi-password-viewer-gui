@@ -12,6 +12,7 @@ wifi-password-viewer-gui/
 │
 ├── assets/             # Screenshots
 ├── main.py             # Main GUI application
+├── requirements.txt
 ├── LICENSE
 └── README.md           # Project documentation
 ```
@@ -92,12 +93,6 @@ Python 3.7+
 Windows OS (netsh required)
 ```
 
-Install dependencies:
-
-```bash
-pip install customtkinter
-```
-
 ---
 
 ## ▶️ How to Run
@@ -117,6 +112,12 @@ cd wifi-password-viewer-gui
 ### 3️⃣ Install Dependencies
 
 ```bash
+pip install -r requirements.txt
+```
+
+OR
+
+```bash
 pip install customtkinter
 ```
 
@@ -130,7 +131,7 @@ python main.py
 
 ---
 
-## 🖥️ UI Preview (What You'll See)
+## 🖥️ UI Preview
 
 * 📶 Header with app title
 * 📊 Stats bar showing counts
@@ -200,6 +201,12 @@ netsh wlan show profile <name> key=clear
 * For **personal and educational use only**
 * Only access networks you own or have permission for
 * Developer is not responsible for misuse
+
+---
+
+## 📸 Preview
+
+![Rich CLI Preview](assets/WiFi-GUI.png)
 
 ---
 
